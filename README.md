@@ -14,7 +14,7 @@
 Fill in your details where you see this icon ✍️
 We have provided a sample Day Journey entry staring at 0. You can delete this example.
 
-## [✍️ Your Name]'s Cloud Journey
+## AHMED BIN SHEHAB Cloud Journey
 
 [✍️ Introduce yourself]
 
