@@ -14,16 +14,16 @@
 Fill in your details where you see this icon ✍️
 We have provided a sample Day Journey entry staring at 0. You can delete this example.
 
-## AHMED BIN SHEHAB Cloud Journey
+## AHMED BIN SHEHAB's Cloud Journey
 
-My name is Ahmed Bin Shehab, and I have a 14+ years of IT experience working as a Sr.IT support engineer and cloud engineer. I've primarily worked in the Microsoft space with technologies like Active Directory, Exchange, SQL, & SCCM. Lately I've been helping companies move to Microsoft 365, primarily using Microsoft Teams for collaboration purposes. I love automation and am a big fan of PowerShell and programming in general.
+My name is Ahmed Bin Shehab, and I have a 14+ years of IT experience working as a Sr.IT support engineer and cloud engineer. I've primarily worked in the Microsoft space with technologies like Active Directory, Exchange, SQL, & SCCM. Lately I've been helping companies move to Microsoft 365, primarily using Microsoft Teams for collaboration purposes. I love automation and am a big fan of PowerShell,terraform and programming in general.
 
-I've started this challenge as a way to organize what I am doing to expand my skillset outside of the Microsoft ecosystem. I'm working towards a career as an Azure Cloud or DevOps engineer. I've already achieved several Azure certifications including:
+I've started this challenge as a way to organize what I am doing to expand my skillset outside of the Microsoft ecosystem. I'm working towards a career as an Azure Cloud or DevOps engineer. I've already achieved several Azure,AWS and Oracle certifications including:
 
 Azure Administrator Associate
 Azure Security Engineer Associate
 Azure Architect Expert
-DevOps Engineer Expert
+
 
 
 
