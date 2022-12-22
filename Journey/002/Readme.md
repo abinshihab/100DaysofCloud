@@ -1,15 +1,15 @@
 **Add a cover photo like:**
 ![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Launch a Hello World website on the internet
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+✍️ The basic project is how to start website in EC2 instase .
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+✍️ We need AWS account and EC2 instance .
 
 ## Use Case
 
