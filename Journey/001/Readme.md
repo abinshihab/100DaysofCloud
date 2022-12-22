@@ -9,4 +9,4 @@
 
 
 
-[https://www.linkedin.com/posts/activity-7009533457806573568-KWzy?utm_source=share&utm_medium=member_desktop](link)
+[link](https://www.linkedin.com/posts/activity-7009533457806573568-KWzy?utm_source=share&utm_medium=member_desktop)
