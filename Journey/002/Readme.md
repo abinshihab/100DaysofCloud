@@ -13,8 +13,8 @@
 
 ## Use Case
 
-- 
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+- ![placeholder image](https://github.com/abinshihab/100DaysofCloud/blob/main/Journey/002/Day2.png)
+- ✍️  We will use AWS Amplify, lambda and DymanoDB as shown in the above photo
 
 ## Cloud Research
 
