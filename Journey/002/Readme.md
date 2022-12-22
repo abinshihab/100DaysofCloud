@@ -5,15 +5,15 @@
 
 ## Introduction
 
-✍️ The basic project is how to start website in EC2 instase .
+✍️ We will create a simple web application. We will first build a static web app that renders "Hello World." Then we will learn how to add functionality to the web app so the text that displays is based on a custom input you provide.
 
 ## Prerequisite
 
-✍️ We need AWS account and EC2 instance .
+✍️ We need AWS account free tire .
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
+- 
 - ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
