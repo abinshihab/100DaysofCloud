@@ -61,4 +61,4 @@ The below screenshot is the web app created by AWS Amplify
 ## Social Proof
 
 
-[Linkedin](link)
+[Linkedin](https://www.linkedin.com/posts/activity-7012294710278938625-fq7u?utm_source=share&utm_medium=member_desktop)
