@@ -14,7 +14,7 @@
 ## Use Case
 
 - ![placeholder image](https://github.com/abinshihab/100DaysofCloud/blob/main/Journey/002/Day2.png)
-- ✍️  We will use AWS Amplify, lambda and DymanoDB as shown in the above photo
+- ✍️  We will create web app and then we will connect the web app to serverless backend. finally we will add interactivity to your web app with an API and a database.
 
 ## Cloud Research
 
@@ -25,9 +25,9 @@
 
 ✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
+### Step 1 — Create a website and upload zip file to AWS amplify 
 
-![Screenshot](https://via.placeholder.com/500x300)
+![Screenshot](https://github.com/abinshihab/100DaysofCloud/blob/main/Journey/002/aws%20amplify%20app.jpeg)
 
 ### Step 1 — Summary of Step
 
