@@ -1,7 +1,5 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# Launch a Hello World website on the internet
+# Launch a Hello World website on the internet and add functionality.
 
 ## Introduction
 
