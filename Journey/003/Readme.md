@@ -1,5 +1,5 @@
 **Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+![placeholder image](https://github.com/abinshihab/100DaysofCloud/blob/main/Journey/003/AWS_Step_Workflow.jpeg)
 
 # Create a Serverless Workflow with AWS Step Functions and AWS Lambda
 
