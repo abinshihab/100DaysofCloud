@@ -5,21 +5,22 @@
 
 ## Introduction
 
-✍️ We will use AWS Step Funcitons to automate the process of call center appliction developemnt 
+✍️ We will use AWS Step Funcitons with lambda functions to automate the process of call center appliction developemnt 
 
 ## Prerequisite
 
-✍️ We nee AWS Account, AWs Step Function and AWS lambda
+✍️ We nee AWS Account, AWs Step Functions and AWS lambda
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
 - ✍️ We will use AWS Step function to orc the process of call center and make coordinate multiple Lambda functions into flexible workflows that are easy to debug and change
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- ✍️ I tried AWS tutorial 
+
+[link](https://aws.amazon.com/getting-started/hands-on/create-a-serverless-workflow-step-functions-lambda/?ref=gsrchandson&id=updated)
+
 
 ## Try yourself
 
