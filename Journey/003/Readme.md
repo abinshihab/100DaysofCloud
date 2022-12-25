@@ -36,30 +36,36 @@ Create more than one function,One to create a support case another to assign the
 ![Screenshot](https://github.com/abinshihab/100DaysofCloud/blob/main/Journey/003/Create_State_Machine_2.jpeg)
 ![Screenshot](https://github.com/abinshihab/100DaysofCloud/blob/main/Journey/003/Create_State_Machine_3.jpeg)
 
+
 ### Step 3 — Create Lambda Functions
 
-![Screenshot](https://via.placeholder.com/500x300)
+![Screenshot](https://github.com/abinshihab/100DaysofCloud/blob/main/Journey/003/Create_Lambda_Functions.jpeg)
+
+Update permission for each function
+![Screenshot](https://github.com/abinshihab/100DaysofCloud/blob/main/Journey/003/State_Machine_Permission.jpeg)
+
 
 ### Step 4 - Populate the workflow by update lambda function in state machine file.
 
-![Screenshot](https://via.placeholder.com/500x300)
+Update the ARN number for each function
 
-### Step 5 - Populate the workflow by update lambda function in state machine file.
-
-![Screenshot](https://via.placeholder.com/500x300)
+![Screenshot](https://github.com/abinshihab/100DaysofCloud/blob/main/Journey/003/Update_function_ARN_in_state_machine.jpeg)
 
 
-### Step 6 - Execute the workflow
+### Step 5 - Execute the workflow
 
-![Screenshot](https://via.placeholder.com/500x300)
+Execute the workflow with failed result 
+![Screenshot](https://github.com/abinshihab/100DaysofCloud/blob/main/Journey/003/Workflow_Result_Failed.jpeg)
 
+Execute the workflow with successed result 
+![Screenshot](https://github.com/abinshihab/100DaysofCloud/blob/main/Journey/003/Workflow_Result_%20Succeeded.jpeg)
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+✍️ I learnd how to create workflow of AWS steps and connect lambda functions .
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+✍️ Integrate the workflow with AWS SNS and AWS SQS services.
 
 ## Social Proof
 
