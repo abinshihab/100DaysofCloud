@@ -1,7 +1,7 @@
 **Add a cover photo like:**
 ![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Host A Static Website on AWS And CI CD Pipeline
 
 ## Introduction
 This week's challenge will explore critical concepts and services related to cloud storage, content delivery, and DNS management 🔍 We will also implement CICD for automated changes to your website.
