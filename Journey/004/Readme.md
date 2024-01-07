@@ -52,15 +52,19 @@ https://www.youtube.com/watch?v=UVvc_RtOoWg&list=PLl4APkPHzsUUc8HOEIwfB3Z2uxRv2S
 
 
 ## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+By the end of this challenge I learned 
+- How to Host a static website on S3
+- How to use Cloudfront for edge caching
+- How to secure your static website using ACM
+- DNS management using Route53
+- How to implement CICD using the AWS code pipeline
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+ I will connect this static website to Amazon DynamoDB database.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
+
 
 [link](link)
