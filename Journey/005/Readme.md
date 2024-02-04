@@ -1,8 +1,8 @@
 **Add a cover photo like:**
 
 
-# New post title here
-Amazon CodeCatalyst Workshop.
+# Amazon CodeCatalyst Workshop.
+
 ## Introduction
 
 Today I have a Amazon CodeCatalyst workshop with Abu Dhabi AWS User group.In this workshop I use the blueprint Modern Three-tier web application to build and deploy a well-architected 3-tier modern web application 
