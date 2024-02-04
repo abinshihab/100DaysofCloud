@@ -1,49 +1,37 @@
 **Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+
 
 # New post title here
-
+Amazon CodeCatalyst Workshop.
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
+Today I have a Amazon CodeCatalyst workshop with Abu Dhabi AWS User group.In this workshop I use the blueprint Modern Three-tier web application to build and deploy a well-architected 3-tier modern web application 
 ## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+AWS free account if you have one or you can use code provided from the instrutor if you are in the workshop
 
 ## Use Case
+![image](https://github.com/abinshihab/100DaysofCloud/assets/22618390/b109f3db-d9ed-484f-87a3-0a1e7d2ef9b8)
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+- ✍️ As we can see in the architect we have three tiers
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- I had some errors while I created and verfiying AWS CodeCatalyst.
 
 ## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+You can follow up the instrucion in the link of workshop
 
-### Step 1 — Summary of Step
+https://catalog.workshops.aws/integrated-devops/en-US/introduction
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+✍️  I will obtain the application and use a DevOps tool like Amazon CodePipeline to commit, deploy, and test code using CI/CD processes. 
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+✍️ Modify the code to get a more results 
 
 ## Social Proof
 
