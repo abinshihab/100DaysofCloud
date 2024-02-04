@@ -1,5 +1,3 @@
-**Add a cover photo like:**
-
 
 # Amazon CodeCatalyst Workshop.
 
