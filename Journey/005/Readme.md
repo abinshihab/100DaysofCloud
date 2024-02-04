@@ -35,4 +35,4 @@ https://catalog.workshops.aws/integrated-devops/en-US/introduction
 
 ✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+[link][(link)](https://www.linkedin.com/posts/ahmedshihab2023_100daysofcloud-activity-7159994344165326848-Dt11?utm_source=share&utm_medium=member_desktop)https://www.linkedin.com/posts/ahmedshihab2023_100daysofcloud-activity-7159994344165326848-Dt11?utm_source=share&utm_medium=member_desktop
