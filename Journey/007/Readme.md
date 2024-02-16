@@ -1,25 +1,28 @@
 **Add a cover photo like:**
 ![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Write less code: Building applications with a serverless mindset
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Today,I create a translation application. The application uses Amazon Translate  to translate a text into a different language. After translating the text, the application saves the result into an Amazon DynamoDB  table. The application uses the DynamoDB table before translating to make sure that the same text was not translated before. If it was, it uses the saved value. If it wasn't, it translates the text and saves it into the database.
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+- AWS account
+- IAM Role.
+- Amazon DynamoDB table.
+- AWS Step Functions State Machine.
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+- https://static.us-east-1.prod.workshops.aws/public/54350d32-beba-460b-a043-0c672241bad5/static/images/introduction/1-architecture.png![image](https://github.com/abinshihab/100DaysofCloud/assets/22618390/19e3338b-bc9a-48c3-be53-bb8b6b099f68)
+
+- I will build Step Functions state machine to translate the text. Then, integrate with API Gateway to expose the functionality. Finally, I wil invoke the state machine from an SQS queue using EventBridge Pipes
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- I had some issue while I'm creating and deployment AWS API Gateway. I fix them by copy the correct IAM role ARN.
 
 ## Try yourself
 
@@ -27,26 +30,19 @@
 
 ### Step 1 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+I followed the same workshop of Building applications with a serverless mindset from AWS as blow:
+https://catalog.workshops.aws/svsmindsetapps/en-US/10-introduction
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+I learn how to create and use AWS Step funtion 
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+Use SAM template to create the Step Functions state machine and the resources needed for the translation API.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+- Linkedin
+[link]https://www.linkedin.com/posts/ahmedshihab2023_write-less-code-building-applications-with-activity-7164346734956032000-9ZlO?utm_source=share&utm_medium=member_desktop(link)
