@@ -1,0 +1,109 @@
+AWSTemplateFormatVersion: 2010-09-09
+Transform: AWS::Serverless-2016-10-31
+Description: Workshop stack
+Resources:
+  TranslationTable:
+    Type: AWS::DynamoDB::Table
+    Metadata:
+      cfn_nag:
+        rules_to_suppress:
+          - id: W78
+            reason: "No backup required"
+          - id: W74
+            reason: "No encryption required"
+          - id: W28
+            reason: "We need name in other places"
+    Properties:
+      TableName: TranslationTable
+      AttributeDefinitions:
+        - AttributeName: id
+          AttributeType: S
+      BillingMode: PAY_PER_REQUEST
+      KeySchema:
+        - AttributeName: id
+          KeyType: HASH
+      StreamSpecification:
+        StreamViewType: NEW_AND_OLD_IMAGES
+  TranslationStateMachine:
+    Type: AWS::Serverless::StateMachine
+    Properties:
+      Definition:
+        StartAt: Start
+        States:
+          Start:
+            Type: Pass
+            End: True
+      Logging:
+        Level: ALL
+        IncludeExecutionData: true
+        Destinations:
+          - CloudWatchLogsLogGroup:
+              LogGroupArn: !GetAtt StateMachineLogGroup.Arn
+      Policies:
+        - AWSXrayWriteOnlyAccess
+        - AmazonDynamoDBFullAccess
+        - TranslateFullAccess
+        - Statement:
+            - Effect: Allow
+              Action:
+                - logs:CreateLogDelivery
+                - logs:GetLogDelivery
+                - logs:UpdateLogDelivery
+                - logs:DeleteLogDelivery
+                - logs:ListLogDeliveries
+                - logs:PutResourcePolicy
+                - logs:DescribeResourcePolicies
+                - logs:DescribeLogGroups
+              Resource: "*"
+      Tracing:
+        Enabled: true
+      Type: EXPRESS
+  StateMachineLogGroup:
+    Type: AWS::Logs::LogGroup
+    Metadata:
+      cfn_nag:
+        rules_to_suppress:
+          - id: W84
+            reason: "No encryption required"
+    Properties:
+      LogGroupName: !Sub
+        - /aws/vendedlogs/states/${AWS::StackName}-${ResourceId}-Logs
+        - ResourceId: StateMachine
+      RetentionInDays: 7
+
+  ApiToStateMachineRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Action: sts:AssumeRole
+            Principal:
+              Service: !Sub apigateway.${AWS::URLSuffix}
+      Policies:
+        - PolicyName: ExecuteStateMachine
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action: states:StartSyncExecution
+                Resource: !GetAtt TranslationStateMachine.Arn
+  Queue:
+    Type: AWS::SQS::Queue
+    Metadata:
+      cfn_nag:
+        rules_to_suppress:
+          - id: W48
+            reason: "No encryption required"
+
+Outputs:
+  ApiToStateMachineRoleArn:
+    Description: Arn of API to Step Function state machine execution role
+    Value: !GetAtt ApiToStateMachineRole.Arn
+  TranslationStateMachineArn:
+    Description: Arn of the Translation state machine
+    Value: !GetAtt TranslationStateMachine.Arn
+  TranslationTableArn:
+    Description: Arn of the DynamoDB table
+    Value: !GetAtt TranslationTable.Arn
