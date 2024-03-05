@@ -1,5 +1,3 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
 # Deploy A 2-tier Application On AWS Using Terraform | Custom Modules in Terraform
 
