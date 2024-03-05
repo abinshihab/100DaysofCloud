@@ -1,25 +1,24 @@
 **Add a cover photo like:**
 ![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Deploy A 2-tier Application On AWS Using Terraform | Custom Modules in Terraform
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+This workshop is a part 3 of 10 weeks of cloudops challenge.
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+- Download Terraform from website [link]https://developer.hashicorp.com/terraform/install
+- AWS account 
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
+- 
 - ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
-
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+I had some issue 
 
 ## Try yourself
 
@@ -27,19 +26,18 @@
 
 ### Step 1 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
+I follow up the youtube video 
+https://www.youtube.com/watch?v=s8q5B6DLH7s&list=PLl4APkPHzsUUc8HOEIwfB3Z2uxRv2SKOG&index=4
 
 ## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+ - Learn How does Terraform work
+- What is the remote backend in Terraform
+- What are custom modules in Terraform, and how do create them
+- What are the variables in Terraform
+- Input Variables v/s output variables
+- State file locking in Terraform
+- Terraform best practices
+- Provision a 2-tier architecture on AWS using Terraform custom modules
 
 ## Next Steps
 
