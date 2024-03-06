@@ -12,14 +12,15 @@ Today to learn more about lambda and AWS connect servcies
 - An existing Amazon Connect instance with an assigned phone number.
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+- In the following architecture, an AWS Lambda function is used to programmatically collect customer information such as First Name, Last Name, and order status from the Shopify Admin API Endpoint. The data can be used during an Amazon Connect contact flow.
+- 
+- [🖼️ Show as many screenshot as possible so others can experience in your cloud research.](https://static.us-east-1.prod.workshops.aws/public/79bc89b4-84b5-4008-88b9-8ace687d29b8/static/architecturediagram.jpg)
+
+- 
 
 ## Cloud Research
 
 - ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- [🖼️ Show as many screenshot as possible so others can experience in your cloud research.](https://static.us-east-1.prod.workshops.aws/public/79bc89b4-84b5-4008-88b9-8ace687d29b8/static/architecturediagram.jpg)
-
 ## Try yourself
 ![image](https://github.com/abinshihab/100DaysofCloud/assets/22618390/1fc0e5dd-15dd-498f-a82c-a49c23440c6e)
 ### Step 1 — Summary of Step
