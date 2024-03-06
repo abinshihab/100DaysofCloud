@@ -14,8 +14,7 @@ Today to learn more about lambda and AWS connect servcies
 
 - In the following architecture, an AWS Lambda function is used to programmatically collect customer information such as First Name, Last Name, and order status from the Shopify Admin API Endpoint. The data can be used during an Amazon Connect contact flow.
 - 
-- https://static.us-east-1.prod.workshops.aws/public/79bc89b4-84b5-4008-88b9-8ace687d29b8/static/architecturediagram.jpg![image](https://github.com/abinshihab/100DaysofCloud/assets/22618390/820850be-10c6-40a8-991f-58cb97239edf)
-
+- 
 
 ## Cloud Research
 
