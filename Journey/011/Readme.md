@@ -1,16 +1,15 @@
 **Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Build an order inquiry contact center for Shopify with Amazon Connect
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Today to learn more about lambda and AWS connect servcies 
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
+- An existing Shopify Store or a Shopify Partner Account to create a demo store. (https://help.shopify.com/en/partners/dashboard/managing-stores/development-stores )
+- An existing Amazon Connect instance with an assigned phone number.
 ## Use Case
 
 - 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
@@ -19,28 +18,17 @@
 ## Cloud Research
 
 - ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- [🖼️ Show as many screenshot as possible so others can experience in your cloud research.](https://static.us-east-1.prod.workshops.aws/public/79bc89b4-84b5-4008-88b9-8ace687d29b8/static/architecturediagram.jpg)
 
 ## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
+![image](https://github.com/abinshihab/100DaysofCloud/assets/22618390/1fc0e5dd-15dd-498f-a82c-a49c23440c6e)
 ### Step 1 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
+I tried the workshop from AWS 
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
+In this workshop you learned how to use Amazon Connect to allow customers to retrieve Shopify order status information automatically based on the Caller ID. You also learned how to use an AWS Lambda function in the context of an Amazon Connect contact flow.
 ## Next Steps
 
 ✍️ Describe what you think you think you want to do next.
